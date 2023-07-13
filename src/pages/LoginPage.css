@@ -1,0 +1,91 @@
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Kode CSS lainnya */
+  
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container label {
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .login-container .password-toggle {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .login-container .password-toggle input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .login-container .password-toggle label {
+    color: #333;
+  }
+  
+  .login-container button[type="submit"] {
+    padding: 10px;
+    background-color: hsl(211, 94%, 27%);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-container button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  .login-container .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .login-container .form-group label {
+    margin-bottom: 5px;
+  }
+  
+  .login-container .form-group input[type="text"],
+  .login-container .form-group input[type="password"] {
+    margin-bottom: 10px;
+  }
+  
+  .login-container .register-link {
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .login-container .register-link:hover {
+    color: #555;
+  }
+  
